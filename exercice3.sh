@@ -1,6 +1,6 @@
 #!/bin/bash
 
-a=" "
+a="."
 Espace=""
 for ((i=0;i<15;i++))
 do
@@ -9,3 +9,7 @@ do
 	sleep 0.2
 	Espace="$Espace$a"
 done
+clear
+echo -n $Espace
+echo "BOOM"
+sleep 5
