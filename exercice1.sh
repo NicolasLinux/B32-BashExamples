@@ -11,3 +11,4 @@ then
 else
 	echo "Le mot existe pas"
 fi
+sleep 2
